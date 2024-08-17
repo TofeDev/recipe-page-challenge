@@ -23,14 +23,15 @@ This was probably the challenge I most enjoyed so far! I had to learn some thing
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-recipe-challenge-HSvu-bAu7R)
+- Live Site URL: [Live Page](https://tofedev.github.io/recipe-page-challenge/)
 
 ## My process
 
 - Adding the corresponding HTML
 - Sizing for Desktop
 - CSS
+- Media Query for Mobile
 
 ### Built with
 
