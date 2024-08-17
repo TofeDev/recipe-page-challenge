@@ -1,0 +1,100 @@
+:root {
+    --background: hsl(30, 54%, 90%);
+    --line: hsl(30, 18%, 87%);
+    --font: hsl(30, 10%, 34%);
+    --maintitle:hsl(24, 5%, 18%);
+    --brown: hsl(14, 45%, 36%);
+    --darkpink1: hsl(332, 51%, 32%);
+    --pink: hsl(330, 100%, 98%);
+}
+
+body {
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--background);
+}
+
+section {
+    background-color: white;
+    margin: 0;
+    max-width: 650px;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: var(--maintitle);
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+p, span, li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--font);
+}
+
+span.bold, li::marker {
+    font-weight: 700;
+}
+
+span.purple {
+    font-size: 20px;
+    color: var(--darkpink1);
+}
+
+img {
+    max-width: 650px;
+    border-radius: 10px;
+}
+
+.time {
+    background-color: var(--pink);
+    padding: 20px 25px;
+    border-radius: 10px;
+}
+
+.divider {
+    border-bottom: 1px solid var(--line);
+    margin: 2px 0;
+}
+
+ul, ol {
+    padding-left: 25px;
+    line-height: 2em;
+}
+
+li {
+    padding-left: 10px;
+}
+
+h2, li::marker, span.right {
+    color: var(--brown);
+
+}
+
+li.purple::marker {
+    color: var(--darkpink1);
+}
+
+.table {
+    padding-top: 0.5em;
+}
+
+span.right {
+    margin-right: 100px;
+}
+
+p.row{
+    display: flex;
+    margin-left: 50px;
+    justify-content: space-between;
+}
