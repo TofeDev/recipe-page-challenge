@@ -11,16 +11,15 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
+This was probably the challenge I most enjoyed so far! I had to learn some things that I wasn't sure how to do. And I think I'm getting better with my code, which makes me happy!
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![Finished Page](./design/Screenshot%20Finished%20Project.png)
 
 ### Links
 
@@ -36,14 +35,13 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Built with
 
 - HTML5
-- CSS custom properties
+- CSS
 - Flexbox
+- New Media Query Syntaxis
 
 ### What I learned
 
-### Continued development
-
-I finished the desktop desing, I'm gonna do the mobile desing later.
+I didn't made a properly page for Mobile view until now, I'm surprised of how it wasn't that complicated like I thought before, I still have to get better, of course.
 
 ## Author
 
