@@ -8,6 +8,10 @@
     --pink: hsl(330, 100%, 98%);
 }
 
+* {
+    scrollbar-width: none;
+}
+
 body {
     min-height: 100vh;
     align-items: center;
@@ -97,4 +101,30 @@ p.row{
     display: flex;
     margin-left: 50px;
     justify-content: space-between;
+}
+
+@media (width < 375px) {
+
+body {
+    display: contents;
+}
+
+section, img {
+    max-width: 375px;
+    border-radius: 0;
+}
+
+img {
+    margin-left: -35px;
+    margin-top: -35px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+span.right {
+    margin-right: 50px;
+}
+
 }
